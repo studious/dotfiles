@@ -1,0 +1,6 @@
+nic='/Users/stu/development/rails/nic'
+pcadb='/Users/stu/development/rails/pcadb'
+hymnbase='/Users/stu/development/rails/hymnbase'
+lp='/Users/stu/development/LiteracyPlanetWork/LiteracyPlanet'
+plp='/Users/stu/development/LiteracyPlanetWork/LiteracyPlanet/public_shared/1.5/'
+node='/Users/stu/development/LiteracyPlanetWork/node'

@@ -1,0 +1,44 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = auto
+
+[gc]
+  auto=1
+
+[merge]
+  summary=true
+
+[alias]
+
+  # The basics.
+  ci = commit
+  co = checkout
+
+  aa = add .
+
+  d = diff                                # show changes in the working directory (not including index)
+  ds = diff --staged                      # show changes in the index only (not working directory)
+
+  cp = cherry-pick -x
+  b = branch -v
+  r = remote -v
+  t = tag -l
+  dt = describe --tags
+
+  unstage = reset HEAD
+  uncommit = reset --soft HEAD^
+  amend = commit --amend
+  stat = status
+
+  # better log formatting
+  changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
+  short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
+  filelog = log -u  # show changes to a file
+  changelog = log --pretty=format:\" * %s\"
+  tree = log --graph --full-history --all --color --pretty=format:\"%x1b[31m%h%x09%x1b[0m%x1b[32m%d%x1b[0m %s %x1b[30m(%an)%x1b[0m\"
+[user]
+	name = <%= print("Name: "); STDOUT.flush; STDIN.gets.chomp %> 
+	email = <%= print("Email: "); STDOUT.flush; STDIN.gets.chomp %>

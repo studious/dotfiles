@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Volumes/Time Machine/.Trashes/501/2012-08-31-002947/Macintosh HD'
+let g:netrw_dirhist_2='/Volumes/Time Machine/.Trashes/501/2012-08-31-002947/Macintosh HD/System'
+let g:netrw_dirhist_3='/Volumes/Time Machine/.Trashes/501/2012-08-31-002947/Macintosh HD/System/Library'
+let g:netrw_dirhist_4='/Volumes/Time Machine/.Trashes/501/2012-08-31-002947/Macintosh HD/System/Library/CoreServices'
+let g:netrw_dirhist_5='/Users/stu'
+let g:netrw_dirhist_6='/Users/stu/.oh-my-zsh'
+let g:netrw_dirhist_7='/Users/stu/.oh-my-zsh/plugins'
+let g:netrw_dirhist_8='/Users/stu/.oh-my-zsh/plugins/zeus'

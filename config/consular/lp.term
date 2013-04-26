@@ -1,0 +1,16 @@
+# COMMENT OF SCRIPT HERE
+# you can make as many tabs as you wish...
+# tab names are actually arbitrary at this point too.
+
+window do
+
+	run "cd lp"
+	run "cd public_shared/1.5/lp"
+	tab "cd lp", "cd public_shared/1.5/lp", "redis-server"
+	tab "cd node", "node app.js"
+	tab "cd node", "node apps/consumers/student_subject_stats.js"
+	tab "cd node", "node apps/pubsub/subscribe_rails.js"
+	tab "cd lp", "rails s"
+	tab "cd lp", "script/delayed_job start"
+end
+
