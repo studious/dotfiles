@@ -7,6 +7,7 @@ task :install do
   switch_to_zsh
   replace_all = false
   files = Dir['*'] - %w[Rakefile README.rdoc LICENSE oh-my-zsh]
+  files << "oh-my-zsh/custom/plugins/stufraser"
   files << "oh-my-zsh/custom/stufraser.zsh-theme"
   files.each do |file|
     system %Q{mkdir -p "$HOME/.#{File.dirname(file)}"} if file =~ /\//
