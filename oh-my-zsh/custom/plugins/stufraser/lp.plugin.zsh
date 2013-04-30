@@ -63,5 +63,6 @@ upload_html() {
         --exclude 'api/subjects/*' \
         --exclude '1.5/lp/.sass-cache/*' \
         --exclude '1.5/lp/dump.rdb' \
+        --exclude 'api/words.json' \
         ~/Development/LiteracyPlanetWork/LiteracyPlanet/public/* $1:/home/ubuntu/public_html/literacyplanet/public/ 
 }
