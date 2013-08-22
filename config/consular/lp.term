@@ -10,7 +10,7 @@ window do
 	tab "cd node", "node app.js"
 	tab "cd node", "node apps/consumers/student_subject_stats.js"
 	tab "cd node", "node apps/pubsub/subscribe_rails.js"
-	tab "cd lp", "rails s"
-	tab "cd lp", "script/delayed_job start"
+	tab "cd lp", "passenger start"
+	# tab "cd lp", "script/delayed_job start"
 end
 
