@@ -1,7 +1,8 @@
 " This is Gary Bernhardt's .vimrc file
 " vim:set ts=2 sts=2 sw=2 expandtab:
 
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
@@ -55,6 +56,10 @@ set wildmode=longest,list
 " make tab completion for files/buffers act like bash
 set wildmenu
 let mapleader=","
+
+if has("gui_running")
+  set guifont=Menlo\ for\ Powerline
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CUSTOM AUTOCMDS
