@@ -9,7 +9,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 # export RBENV_ROOT=/usr/local/opt/rbenv
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=/Users/stu/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 export NODE_PATH=/usr/local/lib/node_modules
 
 ### Added by the Heroku Toolbelt
