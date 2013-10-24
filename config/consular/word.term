@@ -1,0 +1,9 @@
+# COMMENT OF SCRIPT HERE
+# you can make as many tabs as you wish...
+# tab names are actually arbitrary at this point too.
+
+window do
+    run "cd word"
+    run "rails s"
+    tab "cd ~/Development/LiteracyPlanetWork/lp-api", "rails s -p 3005"
+end
